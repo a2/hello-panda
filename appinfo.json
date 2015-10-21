@@ -1,31 +1,34 @@
 {
-    "appKeys": {},
-    "capabilities": [
-        ""
-    ],
-    "companyName": "Alexsander Akers",
-    "longName": "Hello Panda",
-    "projectType": "native",
-    "resources": {
-        "media": [
-            {
-                "characterRegex": "[0-9:AMP ]",
-                "file": "fonts/bree_extrabold.ttf",
-                "name": "FONT_BREE_EXTRABOLD_28",
-                "type": "font"
-            },
-            {
-                "file": "images/panda.png",
-                "name": "IMAGE_PANDA",
-                "type": "png"
-            }
-        ]
-    },
-    "shortName": "Hello Panda",
-    "uuid": "2703bf77-99ea-4751-8ffa-00cfeea095a4",
-    "versionCode": 1,
-    "versionLabel": "1.0",
-    "watchapp": {
-        "watchface": true
-    }
+  "uuid": "2703bf77-99ea-4751-8ffa-00cfeea095a4",
+  "shortName": "Hello Panda",
+  "longName": "Hello Panda",
+  "companyName": "Alexsander Akers",
+  "versionCode": 1,
+  "versionLabel": "1.1",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "watchapp": {
+    "watchface": true
+  },
+  "resources": {
+    "media": [
+      {
+        "file": "fonts/bree_extrabold.ttf",
+        "name": "FONT_BREE_EXTRABOLD_24",
+        "targetPlatforms": ["chalk"],
+        "type": "font"
+      },
+      {
+        "file": "fonts/bree_extrabold.ttf",
+        "name": "FONT_BREE_EXTRABOLD_28",
+        "targetPlatforms": ["aplite", "basalt"],
+        "type": "font"
+      },
+      {
+        "file": "images/panda.png",
+        "name": "IMAGE_PANDA",
+        "type": "png"
+      }
+    ]
+  }
 }
